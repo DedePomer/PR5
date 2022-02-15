@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300&family=Spectral+SC:wght@700&display=swap');
+
+
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2
+{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+h3
+{
+    font-size: 12px;
+    font-weight: 700; 
+}
+
+p
+{
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+
+
+body
+{
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.size-14
+{
+    font-size: 14px;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.AboutUs
+{
+    width: 1600px;
+}
+
+.AboutUs_Info
+{
+    justify-content: space-around;
+    background: #4a657d;
+    align-items: center;
+    flex-basis: 100%;
+    height: 50px;
+}
+
+
+.color-bluergray
+{
+    color: #4a657d;
+}
+
+.color-white
+{
+    color: white;
+}
+
+.AboutUs_Info_LeftContainer
+{
+    align-items: center;
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.AboutUs_Info_RightContainer
+{
+    align-items: center;
+    gap: 16px;
+}
+
+.AboutUs_Info_RightContainer div
+{
+    background: #1988e4;
+    height: 100%;
+    padding: 0px 38px;
+    text-transform: uppercase;
+}
+
+.border-gray
+{
+    padding-left: 16px;
+    border-left: 1.5px solid rgb(173, 173, 173,.7); 
+}
+
+.AboutUs_Logo
+{
+    height: 101px;
+    justify-content: space-around;
+}
+
+.AboutUs_Logo img
+{
+    object-fit: contain;
+}
+
+.AboutUs_Logo nav
+{
+    gap: 40px;
+    align-items: center;
+}
+
+.AboutUs_Logo nav p
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+
+.AboutUs_Slider
+{
+    position: relative;
+}
+
+
+.SliderImg img
+{
+    height: 951px;
+    width: 1600px;
+    object-fit: cover;
+}
+
+.prew, .next
+{
+    display: flex;
+    top: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.next
+{
+    right: 0;
+    transform: rotate(180deg);
+}
