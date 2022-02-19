@@ -10,26 +10,34 @@ h1
 {
     font-size: 50px;
     font-weight: 700;
+
 }
 
 h2
 {
     font-size: 21px;
     font-weight: 700;
+
 }
 
 h3
 {
     font-size: 12px;
     font-weight: 700; 
+
 }
 
 p
 {
     font-size: 14px;
     font-weight: 400; 
+
 }
 
+.weight-bold
+{
+    font-weight: 700; 
+}
 
 
 body
@@ -73,7 +81,7 @@ header
     background: #4a657d;
     align-items: center;
     flex-basis: 100%;
-    height: 50px;
+   
 }
 
 
@@ -100,12 +108,22 @@ header
     gap: 16px;
 }
 
-.AboutUs_Info_RightContainer div
+.BlueButtont
 {
+    display: flex;
     background: #1988e4;
     height: 100%;
     padding: 0px 38px;
     text-transform: uppercase;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.BlueButtont h3
+{
+    font-size: 14px;
 }
 
 .border-gray
@@ -118,6 +136,7 @@ header
 {
     height: 101px;
     justify-content: space-around;
+
 }
 
 .AboutUs_Logo img
@@ -135,16 +154,14 @@ header
 {
     font-weight: 700;
     text-transform: uppercase;
-    
 }
 
 
 .AboutUs_Slider
 {
     position: relative;
+    z-index: 0;
 }
-
-
 .SliderImg img
 {
     height: 951px;
@@ -155,14 +172,251 @@ header
 .prew, .next
 {
     display: flex;
-    top: 50%;
+    top: 40%;
     position: absolute;
-    cursor: pointer;
+    cursor: pointer;  
+    background: #1988e4;
+    height: 62px;
+    width: 71px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
 }
 
 
 .next
 {
     right: 0;
-    transform: rotate(180deg);
+}
+
+.prew a, .next a
+{
+    font-size: 20px;
+}
+
+
+.bg-whiteblue
+{
+    background: #1988e4;
+}
+
+.color-whiteblue
+{
+    color: #1988e4;
+}
+
+.AboutUs_Slider_Text
+{
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    top: 30%;
+    left: 18.1%;
+    gap: 36px;
+    align-items: center;
+}
+
+.AboutUs_Slider_Text h1, .AboutUs_Slider_Text p
+{
+    text-transform: uppercase;
+    margin: 0 0;
+}
+
+.Consulting 
+{
+    margin-top: 100px;
+    gap: 100px;
+}
+
+
+
+.size-36
+{
+    font-size: 36px;
+}
+
+
+.Consulting_text
+{
+    gap: 40px;
+    margin-top: 120px;
+}
+
+
+.Consulting_text h2
+{
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+
+.Consulting_text p
+{
+    margin: 0;
+    line-height: 2; 
+}
+
+.Consulting_text .BlueButtont
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ConsultingService
+{
+
+    margin-top: 99px;
+
+}
+
+.ConsultingService_Title
+{
+    text-align: center;
+    align-items: center;
+}
+
+
+.ConsultingService_Title h2, .ConsultingService_Title p
+{
+    margin: 0 0 30px 0;
+}
+
+.ConsultingService_Title h2
+{
+    text-transform: uppercase;
+}
+
+.ConsultingService_Title p
+{
+    width: 33%;
+    line-height: 1.7;
+}
+
+.ConsultingService_Inf
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.ConsultingService_Inf_GreyBlock
+{
+    background: #eceff2;
+    width: 350px;
+    height: 396px;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.ConsultingService_Inf_GreyBlock .size-14, .ConsultingService_Inf_BlueBlock .size-14
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0;
+}
+
+.ConsultingService_Inf_GreyBlock p, .ConsultingService_Inf_BlueBlock p
+{
+    margin: 0;
+}
+
+.ConsultingService_Inf_BlueBlock
+{
+    width: 410px;
+    height: 467px;
+    align-items: center;
+    gap: 27px;
+    text-align: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+
+.ConsultingService_Inf_BlueBlock .BlueButtont, .ConsultingService_Inf_GreyBlock .BlueButtont
+{
+    width: 108px;
+    height: 60px;
+}
+
+
+.ConsultingService_Inf_BlueBlock .BlueButtont
+{
+    background: white;
+}
+
+.PractiseAreas
+{
+    margin-top: 99px;
+}
+
+
+.PractiseAreas_Carusel_El
+{
+    text-align: left;
+    gap: 10px;
+    width: 255px;
+}
+
+.PractiseAreas_Carusel_El img
+{
+    width: 255px;
+    height: 166px;
+}
+
+.PractiseAreas_Carusel_El h3
+{
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.PractiseAreas_Carusel_El p
+{
+    margin: 0;
+    line-height: 1.7;
+}
+
+.PractiseAreas_Carusel
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.PractiseAreas_WhyChuseUs 
+{
+    margin-top: 99px;
+    background: url(img/bg.png) no-repeat;
+    height: 410px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.PractiseAreas_WhyChuseUs_Numbers
+{
+    display: flex;
+    justify-content: center;
+    gap: 144px;
+}
+
+.PractiseAreas_WhyChuseUs_Numbers_Universal
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.PractiseAreas_WhyChuseUs_Numbers_Universal h3, .PractiseAreas_WhyChuseUs_Numbers_Universal h1
+{
+    text-transform: uppercase;
+    margin: 0;
 }
