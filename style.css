@@ -420,3 +420,91 @@ header
     text-transform: uppercase;
     margin: 0;
 }
+
+.Portfolio
+{
+    margin-top: 99px;
+}
+
+.Portfolio .ConsultingService_Title
+{
+    margin-bottom: 62px;
+}
+
+.Portfolio_Photo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/bg1.png) no-repeat;
+    background-position: center bottom;
+    width: 1600px;
+    height: 560px;
+}
+
+.Portfolio_Photo_Menu
+{
+    margin-bottom: 52px;
+    text-transform: uppercase;
+    gap: 50px;
+}
+
+.Portfolio_Photo_Menu h3:hover
+{
+    color: #1988e4;
+    cursor: pointer;
+}
+
+.Portfolio_Photo_Img img
+{
+    width: 399px;
+    height: 300px;
+}
+
+.Portfolio_Person_Stroke
+{
+    justify-content: center;
+    gap: 31px;
+}
+
+.Portfolio_Person_Stroke_El img
+{
+    width: 255px;
+    height: 306px;
+}
+
+.Portfolio_Person_Stroke_El
+{
+    width: 255px;
+    text-align: left;
+    gap: 25px;
+}
+
+.Portfolio_Person_Stroke_El div
+{
+    text-transform: uppercase;
+    gap: 13px;
+}
+
+.Portfolio_Person_Stroke_El h3, .Portfolio_Person_Stroke_El p
+{
+    margin: 0;
+}
+
+.Portfolio_Person_Stroke_El p
+{
+    line-height: 1.7;
+}
+
+.Portfolio_Person
+{
+    margin-top: 99px;
+}
+
+.Futter
+{
+    margin-top: 99px;
+    background: #4a657d;
+    width: 100%;
+    height: 50px;
+}
